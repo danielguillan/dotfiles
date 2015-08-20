@@ -9,3 +9,6 @@ plugins=(git gitfast osx z sublime colorize compleat extract cloudapp npm brew b
 
 # Go!
 source $ZSH/oh-my-zsh.sh
+
+# iTermocil Autocompletion
+compctl -g '~/.teamocil/*(:t:r)' itermocil
