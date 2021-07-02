@@ -1,6 +1,4 @@
 tap "homebrew/cask-fonts"
-tap "buo/cask-upgrad"
-
 
 # Brews
 brew "ffmpeg"
@@ -50,19 +48,19 @@ cask "font-lato"
 cask "font-source-sans-pro"
 
 # App Store apps
-mas id: 1365531024, "1Blocker"
-mas id: 557168941, "Tweetbot"
-mas id: 1532801185, "mymind"
-mas id: 953286746, "Darkroom"
-mas id: 409201541, "Pages"
-mas id: 1054607607, "Helium"
-mas id: 1474276998, "HP Smart"
-mas id: 408981434, "iMovie"
-mas id: 409203825, "Numbers"
-mas id: 960276676, "Taurine"
-mas id: 288545208, "Instapaper"
-mas id: 409183694, "Keynote"
-mas id: 775737590, "iA Writer"
+mas "1Blocker", id: 1365531024
+mas "Tweetbot", id: 557168941
+mas "mymind", id: 1532801185
+mas "Darkroom", id: 953286746
+mas "Pages", id: 409201541
+mas "Helium", id: 1054607607
+mas "HP Smart", id: 1474276998
+mas "iMovie", id: 408981434
+mas "Numbers", id: 409203825
+mas "Taurine", id: 960276676
+mas "Instapaper", id: 288545208
+mas "Keynote", id: 409183694
+mas "iA Writer", id: 775737590
 
 # Remove brew cruft
 brew cleanup
