@@ -1,12 +1,17 @@
+tap homebrew/cask-fonts 
+tap buo/cask-upgrade
+
+
 # Brews
-brew "wget"
-brew "mpv"
 brew "ffmpeg"
 brew "gh"
 brew "git"
 brew "grex"
 brew "ical-buddy"
 brew "libtool"
+brew "mas"
+brew "mpv"
+brew "wget"
 brew "yarn"
 
 # Apps
